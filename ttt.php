@@ -7,7 +7,7 @@ $worker = new Worker('websocket://workerman.net:4404');
 $worker->count = 1;
 // 新增加一个属性，用来保存uid到connection的映射(uid是用户id或者客户端唯一标识)
 $worker->uidConnections = array();
-// 当有客户端发来消息时执行的回调函数
+// 当有客户端发来消息时执行的回调函数  
 $worker->onMessage = function($connection, $data)
 {
     global $worker;
