@@ -1,4 +1,4 @@
-# workerman  主要是main_server.php  asyn_server.php 两个文件
+# workerman
 1.通过服务器实现即时通信  
 2.加入心跳包机制  
 3.支持超高并发  
